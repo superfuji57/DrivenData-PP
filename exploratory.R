@@ -3,8 +3,10 @@
 library(readr)
 options(stringsAsFactors = FALSE)
 
-test <- read.csv("./data/test_values.csv")
-train <- read_csv("./data")
+test.values <- read.csv("./data/test_values.csv")
+train.values <- read_csv("./data/train_values.csv")
+train.labels <- read.csv("./data/train_labels.csv")
+
 head(test)
 dim(test)
 str(test)
