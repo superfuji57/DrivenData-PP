@@ -20,3 +20,4 @@ sapply(train.values, na_count)
 
 library(dplyr)
 summarise_each(train.values, funs(na_count))
+
